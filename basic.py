@@ -36,7 +36,7 @@ color = "빨강"
 print(f"나는 {age}살이며, {color}색을 좋아해요");
 
 
-# List
+# List(stack)
 subway = ["유재석", "노홍철", "하하", "정형돈"]
 
 subway.pop();
@@ -54,7 +54,7 @@ subway.extend(train);
 print(subway);
 
 
-#Dictionary
+#Dictionary(key, value)
 cabinet = {"A-3":"유재석", "B-100":"김태호"};
 cabinet["C-20"] = "조세호";
 print(cabinet)
@@ -73,7 +73,7 @@ print(cabinet.items())
 cabinet.clear()
 print(cabinet)
 
-#Tuple
+#Tuple(데이터 변경 불가능)
 
 menu = ("돈까스", "치즈까스");
 print(menu[0])
@@ -110,7 +110,7 @@ print(python);
 
 #Java 를 잊었어요
 java.remove("김태호");
-print(java)
+print(java);
 
 
 
